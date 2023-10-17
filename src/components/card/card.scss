@@ -1,0 +1,45 @@
+$color-text: rgb(46, 140, 49);
+$backGroundImg: rgba(239, 152, 11, 0.804);
+
+article {
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        background-color: $backGroundImg;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 1px solid black;
+
+    }
+
+    h1 {
+        margin: 0;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        text-align: center;
+
+    }
+
+    p {
+        padding: 5px;
+        color: $color-text;
+    }
+
+    a {
+        text-decoration: none;
+
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: lightblue;
+        color: black;
+    }
+
+    .digivolution {
+        display: flex;
+        justify-content: space-around;
+    }
+}
